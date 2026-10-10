@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.CamKaze" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+
+    <!-- System splash: plain dark screen. The real presplash.png is shown by the app right after. -->
+    <style name="Theme.CamKaze.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+        <item name="postSplashScreenTheme">@style/Theme.CamKaze</item>
+    </style>
+</resources>
